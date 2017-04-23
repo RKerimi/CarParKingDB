@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="1ef6da97-8a1f-464d-b5ac-7f661c9df069" ChangeDateTime="04/14/2017 22:20:07">
+    <Property Name="ElementName" Value="[dbo].[Table1].[Parkplatz]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Parkplatz1" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="287c4d44-3aca-46e3-adc2-83722292440f" ChangeDateTime="04/14/2017 22:25:16">
+    <Property Name="ElementName" Value="[dbo].[Table1].[Parkplatzname]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Parkplatzanlagen" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ffb40e08-a593-4f3e-bbb3-7a16be25b083" ChangeDateTime="04/14/2017 22:28:03">
+    <Property Name="ElementName" Value="[dbo].[Table1].[Parkplatzanlagen]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ParkplatzanlagenName" />
+  </Operation>
+</Operations>
